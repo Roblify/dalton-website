@@ -43,9 +43,23 @@
         text-decoration: underline; /* Add an underline to the links */
     }
     
-    .bottom-links {
-        text-align: center; /* Center align the bottom links */
+    .bottom-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(22, 22, 22);
+        padding: 10px;
+        text-align: center;
+        font-size: 0.875rem;
+        color: white;
     }
+    
+    .bottom-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+     }
   </style>
 </head>
 <body>
@@ -68,6 +82,10 @@
   <h2>Join Dalton Now</h2>
   <p>Ready to experience the capabilities of Dalton? Join our <a href="https://discord.gg/Mj4xUsgsQb">Discord server</a> and invite Dalton to your server to start exploring its features.</p>
   
+  <div class="bottom-bar">
+    &copy; 2023 Dalton. All rights reserved.
+  </div>
+
   <div class="bottom-links">
     <a href="https://discord.gg/Mj4xUsgsQb">Support Server</a>
     <a href="https://daltonbot.com/policy">Privacy Policy</a>
