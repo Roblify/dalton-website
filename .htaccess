@@ -1,0 +1,7 @@
+RewriteEngine on
+
+# Redirect /terms to /terms.html
+RewriteRule ^terms$ /terms.html [L]
+
+# Redirect /policy to /policy.html
+RewriteRule ^policy$ /policy.html [L]
