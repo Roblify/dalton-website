@@ -5,3 +5,6 @@ RewriteRule ^terms$ /terms.html [L]
 
 # Redirect /policy to /policy.html
 RewriteRule ^policy$ /policy.html [L]
+
+# Redirect /reviews to /reviews.html
+RewriteRule ^reviews$ /reviews.html [L]
