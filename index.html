@@ -14,7 +14,8 @@
     }
     
     h1 {
-        font-size: 3.5rem;
+        font-size: 3.6rem;
+        margin-top: 3%;
         text-align: center;
     }
     
@@ -43,13 +44,48 @@
         text-decoration: underline;
     }
     
+    .top-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(47, 49, 54);
+        padding: 10px;
+        text-align: left;
+        font-size: 0.875rem;
+        color: white;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .link-box {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .link-box a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        background-color: rgb(0, 172, 134);
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .link-box a:hover {
+        background-color: rgba(0, 255, 200, 0.151);
+    }
+    
     .bottom-bar {
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
         background-color: rgb(22, 22, 22);
-        padding: 10px;
+        padding: 5px;
         text-align: center;
         font-size: 0.875rem;
         color: white;
@@ -66,11 +102,32 @@
   </style>
 </head>
 <body>
+  <div class="top-bar">
+    <div class="link-box">
+      <a href="https://discord.gg/Mj4xUsgsQb">Support Server</a>
+    </div>
+    <div class="link-box">
+      <a href="https://daltonbot.com/policy">Privacy Policy</a>
+    </div>
+    <div class="link-box">
+      <a href="https://patreon.com/daltonbot">Subscribe</a>
+    </div>
+    <div class="link-box">
+      <a href="https://discord.com/api/oauth2/authorize?client_id=1092634378007494697&permissions=534723950656&scope=bot%20applications.commands">Invite Dalton</a>
+    </div>
+    <div class="link-box">
+      <a href="https://daltonbot.com/terms">Terms of Service</a>
+    </div>
+    <div class="link-box">
+      <a href="https://daltonbot.com/reviews">Reviews from users</a>
+    </div>
+  </div>
+
   <h1>Dalton - Discord bot powered by AI</h1>
   <h3>Chat, Image Generation, and Text Extraction made easy</h3>
   
   <h2>About Dalton</h2>
-  <p>Dalton is an advanced AI-powered bot designed to enhance your Discord experience. With Dalton, you can have natural language conversations, generate images <br>on-the-fly, and extract text from images effortlessly.</p>
+  <p>Dalton is an advanced AI-powered bot designed to enhance your Discord experience. With Dalton, you can have natural language conversations, generate images on-the-fly, and extract text from images effortlessly.</p>
 
   <h2>Features</h2>
   <ul>
@@ -80,7 +137,7 @@
   </ul>
 
   <h2>Pricing</h2>
-  <p>Access to Dalton's premium features which is available for only $1.99 USD per month on <a href="https://patreon.com/daltonbot">Patreon</a>. Support Dalton's development and unlock <br>the full potential of this powerful Discord bot.</p>
+  <p>Access to Dalton's premium features which is available for only $1.99 USD per month on <a href="https://patreon.com/daltonbot">Patreon</a>. Support Dalton's development and unlock the full potential of this powerful Discord bot.</p>
 
   <h2>Join Dalton Now</h2>
   <p>Ready to experience the capabilities of Dalton? Join our <a href="https://discord.gg/Mj4xUsgsQb">Discord server</a> and invite Dalton to your server to start exploring its features.</p>
@@ -92,7 +149,7 @@
   <div class="bottom-links">
     <a href="https://discord.gg/Mj4xUsgsQb">Support Server</a>
     <a href="https://daltonbot.com/policy">Privacy Policy</a>
-    <a href="https://patreon.com/daltonbot">Patreon</a>
+    <a href="https://patreon.com/daltonbot">Subscribe</a>
     <a href="https://discord.com/api/oauth2/authorize?client_id=1092634378007494697&permissions=534723950656&scope=bot%20applications.commands">Invite Dalton</a>
     <a href="https://daltonbot.com/terms">Terms of Service</a>
     <a href="https://daltonbot.com/reviews">Reviews from users</a>
